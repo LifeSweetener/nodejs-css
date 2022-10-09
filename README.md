@@ -40,7 +40,7 @@
 </p>
 
 <p align="justify">
-  Then open your browser and type into top address line your <i>hostname</i> or <i>ip-address</i> lile that:
+  Then open your browser and type into top address line your <i>hostname</i> or <i>ip-address</i> like that:
 </p>
   <p align="center"><code>http://192.168.99.103:5000</code></p>
   <p align="center">or</p>
