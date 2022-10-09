@@ -1,5 +1,5 @@
 <h1>nodejs-css</h1>
- <p>Here is a project in which I tried to reproduce in maximum detail the template of a one-page business card site: <a href="https://169580.lp.tobiz.net/?v=349868&show_install_panel=true">https://169580.lp.tobiz.net/?v=349868&show_install_panel=true#anchor2</a>.</p>
+ <p>Here is a project in which I tried to reproduce in maximum detail the template of a one-page business card site: <a href="https://169580.lp.tobiz.net/?v=349868&show_install_panel=true">https://169580.lp.tobiz.net/?v=349868&show_install_panel=true</a>.</p>
 
 <p align="justify">
  These are several screenshots of the original site:
@@ -36,8 +36,8 @@
 
 <p align="justify">
   Then open your browser and type into top address line your <i>hostname</i> or <i>ip-address</i> lile that:<br>
-  <code align="center" padding="10px">192.168.99.103:5000</code><br>
-  <code align="center" padding="10px">myPC:5000</code>
+  <code align="center" >192.168.99.103:5000</code><br>
+  <code align="center" padding="5%">myPC:5000</code>
 </p>
 
 <p align="justify">
