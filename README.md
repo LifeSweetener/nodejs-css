@@ -1,15 +1,15 @@
 <h1>nodejs-css</h1>
- <p>Here is a project in which I tried to reproduce in maximum detail the template of a one-page business card site: <a>https://169580.lp.tobiz.net/?v=349868&show_install_panel=true#anchor2</a></p>
+ <p>Here is a project in which I tried to reproduce in maximum detail the template of a one-page business card site: <a href="https://169580.lp.tobiz.net/?v=349868&show_install_panel=true#anchor2">https://169580.lp.tobiz.net/?v=349868&show_install_panel=true#anchor2</a>.</p>
 
 <p align="justify">
  And these are several screenshots of the original site:
 </p>
 
-<p align="center" margin-top="100px">
+<p align="center" margin-top="5%" width="75%">
 <img src="screen1.jpg">
 </p>
 
-<p align="center" margin-top="100px">
+<p align="center" margin-top="5%" width="75%">
 <img src="screen2.jpg">
 </p>
 
@@ -17,11 +17,11 @@
  And these are screens of my project site:
 </p>
 
-<p align="center" margin-top="100px">
+<p align="center" margin-top="5%" width="75%">
 <img src="screen3.jpg">
 </p>
 
-<p align="center" margin-top="100px">
+<p align="center" margin-top="5%" width="75%">
 <img src="screen4.jpg">
 </p>
 
