@@ -2,7 +2,7 @@
  <p>Here is a project in which I tried to reproduce in maximum detail the template of a one-page business card site: <a href="https://169580.lp.tobiz.net/?v=349868&show_install_panel=true">https://169580.lp.tobiz.net/?v=349868&show_install_panel=true#anchor2</a>.</p>
 
 <p align="justify">
- And these are several screenshots of the original site:
+ These are several screenshots of the original site:
 </p>
 
 <p align="center" width="75%">
