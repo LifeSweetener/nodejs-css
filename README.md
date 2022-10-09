@@ -30,7 +30,7 @@
 </p>
 
 <p align="justify">
- If you want to run the project, you should install node.js on your computer and then run approximately next command (in "command line" in project directory):
+ If you want to run the project, you should install node.js on your computer, if you don't have, and then run approximately next command (in "command line" in project directory):
  </p>
  <p align="center"><code>../> node server_side.js</code></p>
 
