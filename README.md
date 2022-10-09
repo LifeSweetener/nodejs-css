@@ -30,19 +30,20 @@
 </p>
 
 <p align="justify">
- If you want to run the project, you should install node.js on your computer and then run approximately next command (in "command line" in project directory):<br>
- <code text-align="center">..///> node server_side.js</code>
-</p>
+ If you want to run the project, you should install node.js on your computer and then run approximately next command (in "command line" in project directory):
+ </p>
+ <p align="center"><code>../> node server_side.js</code></p>
+
 
 <p>
  Or download and install JetBrains WebStorm or something you prefer. And open the project there.
 </p>
 
 <p align="justify">
-  Then open your browser and type into top address line your <i>hostname</i> or <i>ip-address</i> lile that:<br>
-  <code align="center" >192.168.99.103:5000</code><br>
-  <code align="center" padding="5%">myPC:5000</code>
+  Then open your browser and type into top address line your <i>hostname</i> or <i>ip-address</i> lile that:
 </p>
+  <p align="center"><code>http://192.168.99.103:5000</code></p>
+  <p align="center"><code>http://myPC:5000</code></p>
 
 <p align="justify">
  <b>That's all, friend! Thanks for your attention. Good mood to you and have a nice day! :)</b>
