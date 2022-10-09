@@ -5,11 +5,11 @@
  These are several screenshots of the original site:
 </p>
 
-<p align="center" width="75%">
+<p align="center" border="3px solid black">
 <img src="screen1.jpg">
 </p>
 
-<p align="center" width="75%">
+<p align="center" border="3px solid black">
 <img src="screen2.jpg">
 </p>
 
@@ -17,11 +17,11 @@
  And these are screens of my project site:
 </p>
 
-<p align="center" width="75%">
+<p align="center" border="3px solid black">
 <img src="screen3.jpg">
 </p>
 
-<p align="center" width="75%">
+<p align="center" border="3px solid black">
 <img src="screen4.jpg">
 </p>
 
