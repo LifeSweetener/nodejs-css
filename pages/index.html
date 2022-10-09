@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link href="../style/style.css" rel="stylesheet">
+
+    <script
+            src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(document).ready(() => {
+            $('header').load('pages/header.html')
+            $('footer').load('pages/footer.html')
+
+            $(document).on('click', 'a[href^="#"]', function(event) {
+                event.preventDefault();
+
+                $('html, body').animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top
+                }, 750);
+            });
+        })
+    </script>
+</head>
+<body>
+    <!--HEADER-->
+    <header></header>
+
+    <!--MAIN-->
+    <main>
+        <section id="info_1">
+            <img src="../img/top-bg.jpg" alt="Здесь Вы увидите фон заголовочного блока страницы">
+            <div>
+                <h1>Комплексные услуги психолога</h1>
+                <p>
+                    Устали сливать бюджет на то, что не приносит ощутимого результата?
+                    Мы понимаем вас лучше, чем вы думаете.
+                </p>
+                <button>Записаться на консультацию</button>
+            </div>
+        </section>
+
+        <section id="info_2">
+            <h2 class="section_h2" id="info_2_h2">Перечень услуг психолога</h2>
+            <p class="section_p">
+                Выберите услугу, которая подходит под решение ваших задач
+            </p>
+            <div class="card">
+                <h3>Разовые консультации</h3>
+                <p>
+                    Профессиональная настройка рекламных каналов для интернет-магазина в поисковых системах
+                </p>
+                <p class="price">от 5000 руб.</p>
+                <button>Выбрать</button>
+                <img src="../img/service1.jpg" alt="Здесь перед Вами показана фотография к 1-й по счёту услуге">
+            </div>
+            <div class="card">
+                <h3>Краткосрочная психотерапия</h3>
+                <p>
+                    Поддержка сайтов, обновление, дополнение, создание резервных копий сайта, восстановление после сбоя
+                </p>
+                <p class="price">от 5500 руб.</p>
+                <button>Выбрать</button>
+                <img src="../img/service2.jpg" alt="Здесь перед Вами показана фотография ко 2-й по счёту услуге">
+            </div>
+            <div class="card">
+                <h3>Долгосрочная психотерапия</h3>
+                <p>
+                    Услуги по продвижению компаний посредством e-mail маркетинга, а также услуги технического характера
+                </p>
+                <p class="price">от 6000 руб.</p>
+                <button>Выбрать</button>
+                <img src="../img/service3.jpg" alt="Здесь перед Вами показана фотография к 3-ей по счёту услуге">
+            </div>
+            <div class="card">
+                <h3>Консультирование семейных пар</h3>
+                <p>
+                    Ведение соц.сетей, наполнение контентом групп, организация конкурсов и размещение рекламы в соц.сетях
+                </p>
+                <p class="price">от 6500 руб.</p>
+                <button>Выбрать</button>
+                <img src="../img/service4.jpg" alt="Здесь перед Вами показана фотография к 4-й по счёту услуге">
+            </div>
+            <div class="card">
+                <h3>Работа с родителями подростков</h3>
+                <p>
+                    Подключение интернет-магазинов к торговым площадкам типа Яндекс.Маркет, Буру и другим
+                </p>
+                <p class="price">от 7000 руб.</p>
+                <button>Выбрать</button>
+                <img src="../img/service5.jpg" alt="Здесь Вам представлена фотография к 5-й по счёту услуге">
+            </div>
+            <div class="card">
+                <h3>Консультирование подростков</h3>
+                <p>
+                    Проекты, которые не вписываются в общую практику и являются примером нестандартных решений
+                </p>
+                <p class="price">от 7500 руб.</p>
+                <button>Выбрать</button>
+                <img src="../img/service6.jpg" alt="Здесь Вам представлена фотография к 6-й по счёту услуге">
+            </div>
+        </section>
+
+        <section id="info_3">
+            <img src="../img/ask_ques.jpg" alt="Здесь фотка психолога (моя) :D">
+            <h2 id="info_3_h2">Задайте вопрос психологу</h2>
+            <p>
+                Много лет я занимаюсь порно-индустрией. Я работал не только
+                с сексуальными возбуждающими танцоршами в ночных клубах, но и с
+                профессиональными моделями и актрисами (актёрами) порно-фильмов.
+                Мне есть чем с Вами поделиться в этой теме! По возникшим у Вас
+                вопросам пишите мне на имейл! Я проконсультирую Вас и решу все
+                Ваши проблемы с организацией бизнеса в этой сфере. (А... ой...
+                здесь же надо было про психологию...))
+            </p>
+            <button>Задать вопрос</button>
+        </section>
+
+        <section id="info_4">
+            <h2 class="section_h2" id="info_4_h2">Комплекс услуг психолога</h2>
+            <p class="section_p">Ниже представлена информация о стоимости консультаций</p>
+            <div class="table">
+                <h3>Краткосрочная психотерапия</h3>
+                <div>
+                    <div><img src="../img/list-mark.svg"><p>Разработка и реализация стратегии интернет-продвижения компании</p></div>
+                    <div><img src="../img/list-mark.svg"><p>Разработка плана контент-маркетинга, поддержка и наполнение сайтов контентом</p></div>
+                    <div><img src="../img/list-mark.svg"><p>Продвижение, раскрутка аккаунтов в социальных сетях: VK, FaceBook, Instagram, YouTube</p></div>
+                    <div><img src="../img/list-mark.svg"><p>Работа с отзывами в интернет-пространстве</p></div>
+                </div>
+                <p>Стоимость тарифа – <b>30 000 руб.</b></p>
+            </div>
+            <div class="table">
+                <h3>Долгосрочная психотерапия</h3>
+                <div>
+                    <div><img src="../img/list-mark.svg"><p>Составление планов публикаций, участие в разработке smm-стратегий</p></div>
+                    <div><img src="../img/list-mark.svg"><p>Создание и ведение рекламных кампаний в Яндекс Директ и Google Adwords</p></div>
+                    <div><img src="../img/list-mark.svg"><p>Рекламные сети – Яндекс Директ, Google Adwords, Facebook</p></div>
+                    <div><img src="../img/list-mark.svg"><p>Системы аналитики - Google Analytics, Яндекс.Метрика</p></div>
+                    <div><img src="../img/list-mark.svg"><p>Гибкие модели управления проектами</p></div>
+                </div>
+                <p>Стоимость тарифа – <b>45 000 руб.</b></p>
+            </div>
+            <button>Оставить заявку</button>
+        </section>
+
+        <!--FOOTER-->
+        <footer></footer>
+    </main>
+</body>
+</html>

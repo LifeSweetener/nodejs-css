@@ -1,0 +1,61 @@
+<script>
+    let shown = false;
+    function show_politics(event) {
+        event.preventDefault()
+
+        const politics_elem = document.getElementById("politics")
+        if (!shown) {
+            politics_elem.style.display = "block"
+            politics_elem.style.visibility = "visible"
+        } else {
+            politics_elem.style.display = "none"
+            politics_elem.style.visibility = "hidden"
+        }
+
+        shown = !shown;
+    }
+</script>
+
+<div id="the_first">
+    <div style="position:relative;overflow:hidden;float: left;margin-right:5%"><a href="https://yandex.ru/maps/org/notch_men_s_club/74276880707/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Notch Men's Club</a><a href="https://yandex.ru/maps/213/moscow/category/nightclub/184106368/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Ночной клуб в Москве</a><a href="https://yandex.ru/maps/213/moscow/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Ресторан в Москве</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUZaGsw9D" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    <p>
+        Контактная информация:
+        <ul>
+            <li>Попинск, проезд Какашкова.</li>
+            <li>E-mail: PiskaPopa@pochta.sukinsyn</li>
+            <li>Телефон: 8 977 290 94 86 отдела продаж</li>
+            <li>Телефон: 7 977 290 94 86 отдела сбыта</li>
+            <li>Контактное лицо: Шайко Т.И.</li>
+        </ul>
+    </p>
+
+    <p style="text-align: center">
+        Присоединяйтесь к нам в социальных сетях!<br><br>
+        <a href="https://vk.com/timsaffron"><img class="social-icon" src="../img/vk_icon.png"></a>
+        <a href="https://www.youtube.com/channel/UCcQCit8dKUpjSThiNfouw-A"><img class="social-icon" src="../img/youtube_icon.png"></a>
+    </p>
+</div>
+
+<div id="the_last">
+    <img src="../logo.png" alt="our logo">
+    <p id="address_info">
+        ООО «ГАРМОНИЯ», 123456, г.Москва, ул. Центральная 1, офис 1<br>
+        ИНН 1234567890 ОГРН 123456789012<br>
+        <a style="text-decoration:none;border-bottom:1px dashed;cursor:pointer" onclick="show_politics(event)">Политика конфиденциальности</a>
+    </p>
+
+    <p id="tel_info">
+        8 977 290 94 86
+        Звонок по России бесплатный
+    </p>
+</div>
+
+<div id="politics">
+    <h3>Политика конфиденциальности</h3>
+    <p>
+        Данный сайт уважает Ваше право и соблюдает конфиденциальность при заполнении, передаче и хранении Ваших конфиденциальных сведений.
+        Размещение заявки на данном сайте означает Ваше согласие на обработку данных и дальнейшей передачи ваших контактных данных нашей компании.
+        Под персональными данными подразумевается информация, относящаяся к субъекту персональных данных, в частности имя, контактные реквизиты (адрес электронной почты) и иные данные, относимые Федеральным законом от 27 июля 2006 года № 152-ФЗ «О персональных данных» к категории персональных данных.
+        Целью обработки персональных данных является информирование об оказываемых услугах нашей компании.
+    </p>
+</div>
