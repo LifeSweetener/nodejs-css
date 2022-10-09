@@ -34,6 +34,10 @@
  <code text-align="center">..///> node server_side.js</code>
 </p>
 
+<p>
+ Or download and install JetBrains WebStorm or something you prefer. And open the project there.
+</p>
+
 <p align="justify">
   Then open your browser and type into top address line your <i>hostname</i> or <i>ip-address</i> lile that:<br>
   <code align="center" >192.168.99.103:5000</code><br>
