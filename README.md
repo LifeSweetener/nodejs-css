@@ -5,25 +5,25 @@
  These are several screenshots of the original site:
 </p>
 
-<p align="center" border="3px solid black">
-<img src="screen1.jpg">
-</p>
+<table><tr><td align="center">
+ <img src="screen1.jpg">
+</td></tr></table>
 
-<p align="center" border="3px solid black">
+<table><tr><td align="center">
 <img src="screen2.jpg">
-</p>
+</td></tr></table>
 
 <p align="justify">
  And these are screens of my project site:
 </p>
 
-<p align="center" border="3px solid black">
+<table><tr><td align="center">
 <img src="screen3.jpg">
-</p>
+</td></tr></table>
 
-<p align="center" border="3px solid black">
+<table><tr><td align="center">
 <img src="screen4.jpg">
-</p>
+</td></tr></table>
 
 <p align="justify">
  There is also a server side written on NodeJS framework. The code uses "http" module but not popular "Express" module. I use "http" just for practics.
